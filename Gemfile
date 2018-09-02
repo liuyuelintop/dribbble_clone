@@ -34,7 +34,6 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '~> 4.3'
 gem 'bulma-rails', '~> 0.6.1'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
@@ -44,6 +43,7 @@ gem "mini_magick"
 gem 'impressionist', '~> 1.6'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'acts_as_votable', '~> 0.11.1'
+gem "binding_of_caller" 
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
